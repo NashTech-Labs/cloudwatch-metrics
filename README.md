@@ -13,6 +13,8 @@ EC2 does not provide OS-level memory usage or disk usage metrics. Therefore we w
 2. Create IAM role to enable the metrics collection
 3. Create Cloudwatch agent configuration file
 
-If you create or edit the CloudWatch agent configuration file manually, you can give it any name. For simplicity in troubleshooting, it is recommended that we name it /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json on a Linux server and $Env:ProgramData\Amazon\AmazonCloudWatchAgent\amazon-cloudwatch-agent.json on servers running Windows Server. 
 
-The cloudwatch configurations for Linux and Windows are present in their respective directories.= in this repository.
+## Create a configuration file for Cloudwatch
+If you create or edit the CloudWatch agent configuration file manually, you can give it any name. For simplicity in troubleshooting, it is recommended that we name it /opt/aws/amazon-cloudwatch-agent/etc/amazon-cloudwatch-agent.json on a Linux server and $Env:ProgramData\Amazon\AmazonCloudWatchAgent\amazon-cloudwatch-agent.json on servers running Windows Server.  
+
+The cloudwatch configurations for Linux and Windows are present in their respective directories in this repository.
